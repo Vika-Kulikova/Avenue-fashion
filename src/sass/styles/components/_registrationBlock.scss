@@ -1,0 +1,54 @@
+.block-registration {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  max-width: 500px;
+  &-item {
+    display: flex;
+
+    transition: all 0.3s ease-in-out;
+
+    .empty-cart {
+      position: relative;
+      padding-right: 1rem;
+      i.fa-chevron-down {
+        position: absolute;
+        right: 0;
+        top: 2px;
+      }
+    }
+
+    > * {
+      padding: $topBottomBarItemsPadding;
+    }
+
+    &:hover {
+      background: $topBottomBarItemsHover;
+      a {
+        color: $topBottomBarItemsTextHover;
+        text-decoration: none;
+      }
+    }
+
+    a {
+      display: block;
+      width: 100%;
+    }
+
+    i.fa-shopping-cart {
+      padding-right: $topBottomBarIconPadding;
+      font-size: $font-size-shopping-cart;
+    }
+
+    i.fa-chevron-down {
+      font-size: $font-size-chevron;
+    }
+  }
+
+  .container-card {
+    margin-left: $topBottomBarCardMargin;
+    @media (max-width: 550px) {
+      margin-left: 0px;
+    }
+  }
+}

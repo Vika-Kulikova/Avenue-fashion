@@ -1,0 +1,28 @@
+.btn-page {
+  text-transform: uppercase;
+  font-size: $font-size-base;
+  color: $btnBannerColor;
+  border: 2px solid $btnBannerColor;
+  letter-spacing: 0.2em;
+  background: transparent;
+  padding: 1rem 2.5rem;
+  transition: all 0.3s ease-in-out;
+  &:hover, &:active {
+    color: $textColor;
+    background: $btnColorHover;
+    border-color: $btnColorHover;
+  }
+  &:focus {
+    box-shadow: none;
+    outline: none;
+  }
+}
+
+.btn-banner {
+  position: absolute;
+  bottom: 15%;
+  right: 12%;
+}
+.btn-advertising {
+  margin-top: 30px;
+}

@@ -1,0 +1,110 @@
+.navbar-banner-container {
+  width: 100vw;
+  height: 100vh;
+  background-image: url(../../img/bg-welcome.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  @media (max-width: 600px) {
+    background-image: none;
+    height: auto;
+    .btn-banner {
+      display: none;
+    }
+    .navbar-menu ul, .navbar-form {
+      background-color: transparent;
+    }
+
+  }
+}
+
+.navbar-container {
+  //min-height: 130px;
+  padding-top: 35px;
+  max-width: 1780px;
+  margin: 0 auto;
+}
+
+.block-logo a {
+  text-transform: uppercase;
+  font-size: $font-size-Logo;
+  color: $textNavbar;
+  span {
+    font-weight: 700;
+  }
+}
+
+.navbar-menu {
+  flex-grow: 0;
+  width: 900px;
+  padding-top: 10px;
+  ul {
+    width: 600px;
+    @media (max-width: 991px) {
+      max-width: 189px;
+      background-color: $headerBGColor;
+    }
+    .nav-link {
+      display: flex;
+      flex-direction: column;
+      color: $textNavbar;
+      font-size: $font-size-menu;
+      transition: all 0.23s ease-in-out;
+      text-transform: uppercase;
+
+      &:hover {
+        color: $topBottomBarItemsHover;
+        i {
+          color: $topBottomBarItemsHover;
+        }
+      }
+      i {
+        color: $topBottomBarTextColor;
+        font-size: $font-size-chevron;
+      }
+    }
+  }
+}
+
+.dropdown-toggle:after {
+  border: none;
+}
+
+.navbar-form {
+  width: 190px;
+  height: 30px;
+  padding: 0;
+  margin: 0;
+  align-self: center;
+  border: 1px solid #e7e7e7;
+  @media (max-width: 991px) {
+   background-color: $headerBGColor;
+  }
+  .form-search-input {
+    width: 80%;
+    border: none;
+    padding: 0 0.5rem;
+    background: transparent;
+    padding-left: 5px;
+    font-size: $font-size-header;
+    color: $textformSearch;
+    &:focus {
+      box-shadow: none;
+      outline: none;
+    }
+  }
+
+  .submit-form {
+    width: 15%;
+    color: $textformSearch;
+    font-size: $font-size-header;
+    border: none;
+    background: transparent;
+    &:focus {
+      box-shadow: none;
+      outline: none;
+    }
+  }
+}
+

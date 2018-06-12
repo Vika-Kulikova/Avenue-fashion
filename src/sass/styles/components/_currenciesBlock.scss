@@ -1,0 +1,76 @@
+.block-currencies {
+  display: flex;
+  height: 20px;
+  align-items: center;
+  margin-left: 1rem;
+  label {
+    margin-right: 11px;
+    margin-bottom: 0;
+  }
+}
+
+.block-currencies .jq-selectbox {
+  vertical-align: middle;
+  cursor: pointer;
+}
+
+.block-currencies .jq-selectbox__select {
+  width: 83px;
+  //font-size: 13px;
+  color: $topBottomBarTextColor;
+}
+
+.block-currencies .jq-selectbox__select-text {
+  display: block;
+  overflow: hidden;
+  width: 65px;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+//.block-currencies .jq-selectbox__trigger {
+//position: absolute;
+//top: 0;
+//right: 0;
+//width: 17px;
+//height: 100%;
+//border-left: 1px solid #ebebeb;
+//}
+
+.block-currencies .jq-selectbox__trigger-arrow {
+  position: absolute;
+  top: 5px;
+  right: 6px;
+  width: 0;
+  height: 0;
+  border-top: 8px solid #777;
+  border-right: 5px solid transparent;
+  border-left: 5px solid transparent;
+}
+
+.block-currencies .jq-selectbox:hover .jq-selectbox__trigger-arrow {
+  border-top-color: $topBottomBarItemsHover;
+}
+.block-currencies .jq-selectbox__dropdown {
+  //box-sizing: border-box;
+  padding: 0;
+  background: $topBottomBarBG;
+  //box-shadow: 0 0 5px rgba(0, 0, 0, .05);
+  font-size: 11px;
+  //color: #999;
+  right: 0;
+  top: 32px !important;
+}
+
+.block-currencies .jq-selectbox li {
+  min-height: 18px;
+  padding: 5px 5px;
+  user-select: none;
+  white-space: nowrap;
+  transition: all 0.23s ease-in-out;
+}
+
+.block-currencies .jq-selectbox li:hover {
+  color: $textColor;
+  background-color: $topBottomBarItemsHover;
+}

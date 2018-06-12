@@ -1,0 +1,507 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+  <link rel="stylesheet" href="css/libs.min.css">
+  <link rel="stylesheet" href="css/style.css">
+
+  <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+</head>
+
+<body>
+
+<header class="header">
+  <section class="container-bar">
+    <div class="container-wrap container-bar-content d-flex justify-content-between align-items-center">
+
+      <!--block-currencies-->
+      <div class="block-currencies">
+        <label style="cursor: pointer;">Currencies:</label>
+        <div class="select-box">
+          <select>
+            <option>US Dollar</option>
+            <option>GSP</option>
+            <option>Euro-EUR</option>
+            <option>British Pound Sterling-</option>
+          </select>
+        </div>
+      </div>
+
+      <!--block-registration-->
+      <ul class="block-registration">
+        <li class="block-registration-item">
+          <a href="#">Register</a>
+        </li>
+        <li class="block-registration-item">
+          <a href="#">Sign In</a>
+        </li>
+        <li class="block-registration-item container-card">
+          <a href="#">
+							<span class="empty-cart">
+								<i class="fa fa-shopping-cart" aria-hidden="true"></i>empty <i class="fa fa-chevron-down"
+                                                                               aria-hidden="true"></i>
+							</span>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </section>
+</header>
+
+<section class="navbar-banner-container">
+  <nav class="navbar navbar-expand-lg justify-content-between navbar-container">
+
+    <!--logo nav-->
+    <div class="block-logo">
+      <a class="navbar-brand" href="#"><span>avenue</span> fashion</a>
+    </div>
+
+    <!--nav menu-->
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon">
+         <svg viewBox="0 0 30 30" xmlns="http://www.w3.org/2000/svg">
+            <path stroke-width="2" stroke-linecap="round" stroke-miterlimit="10" d="M4 7h22M4 15h22M4 23h22"
+                  stroke="rgba(51, 51, 51, 1)"/></svg>
+      </span>
+    </button>
+
+    <div class="collapse navbar-collapse navbar-menu" id="navbarSupportedContent">
+      <ul class="navbar-nav justify-content-between mr-auto">
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+             aria-haspopup="true" aria-expanded="false">mens
+            <i class="fa fa-chevron-down" aria-hidden="true"></i>
+          </a>
+
+          <div class="dropdown-menu dropdown-block" aria-labelledby="navbarDropdown">
+            <div class="dropdown-content d-flex">
+              <div class="d-flex flex-column col-6">
+                <h3>casuals</h3>
+                <a href="#">Jackets</a>
+                <a href="#">Hoodies &amp; Sweatshirts</a>
+                <a href="#">Polo Shirts</a>
+                <a href="#">Sportswear</a>
+                <a href="#">Trousers &amp; Chinos</a>
+                <a href="#">T-Shirts</a>
+              </div>
+              <div class="d-flex flex-column col-6">
+                <h3>Formal</h3>
+                <a href="#">Jackets</a>
+                <a href="#">Shirts</a>
+                <a href="#">Suits</a>
+                <a href="#">Trousers</a>
+              </div>
+            </div>
+
+            <div class="dropdown-menu-banner d-flex justify-content-center align-items-center">
+              <div
+                class="banner-content black-banner d-flex flex-column justify-content-center align-items-center text-center">
+                <h2>Autumn sale!</h2>
+                <h3>up to 50% off</h3>
+              </div>
+            </div>
+          </div>
+        </li>
+
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+             aria-haspopup="true" aria-expanded="false">womens
+            <i class="fa fa-chevron-down" aria-hidden="true"></i>
+          </a>
+
+          <div class="dropdown-menu dropdown-block" aria-labelledby="navbarDropdown">
+            <div class="dropdown-content d-flex">
+              <div class="d-flex flex-column col-6">
+                <h3>casuals</h3>
+                <a href="#">Jackets</a>
+                <a href="#">Hoodies &amp; Sweatshirts</a>
+                <a href="#">Polo Shirts</a>
+                <a href="#">Sportswear</a>
+                <a href="#">Trousers &amp; Chinos</a>
+                <a href="#">T-Shirts</a>
+              </div>
+              <div class="d-flex flex-column col-6">
+                <h3>Formal</h3>
+                <a href="#">Jackets</a>
+                <a href="#">Shirts</a>
+                <a href="#">Suits</a>
+                <a href="#">Trousers</a>
+              </div>
+            </div>
+
+            <div class="dropdown-menu-banner d-flex justify-content-center align-items-center">
+              <div
+                class="banner-content black-banner d-flex flex-column justify-content-center align-items-center text-center">
+                <h2>Autumn sale!</h2>
+                <h3>up to 50% off</h3>
+              </div>
+            </div>
+          </div>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="#">the brand</a>
+        </li>
+
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+             aria-haspopup="true" aria-expanded="false">local stores
+            <i class="fa fa-chevron-down" aria-hidden="true"></i>
+          </a>
+
+          <div class="dropdown-menu dropdown-block" aria-labelledby="navbarDropdown">
+            <div class="dropdown-content d-flex">
+              <div class="d-flex flex-column col-6">
+                <h3>casuals</h3>
+                <a href="#">Jackets</a>
+                <a href="#">Hoodies &amp; Sweatshirts</a>
+                <a href="#">Polo Shirts</a>
+                <a href="#">Sportswear</a>
+                <a href="#">Trousers &amp; Chinos</a>
+                <a href="#">T-Shirts</a>
+              </div>
+              <div class="d-flex flex-column col-6">
+                <h3>Formal</h3>
+                <a href="#">Jackets</a>
+                <a href="#">Shirts</a>
+                <a href="#">Suits</a>
+                <a href="#">Trousers</a>
+              </div>
+            </div>
+
+            <div class="dropdown-menu-banner d-flex justify-content-center align-items-center">
+              <div
+                class="banner-content black-banner d-flex flex-column justify-content-center align-items-center text-center">
+                <h2>Autumn sale!</h2>
+                <h3>up to 50% off</h3>
+              </div>
+            </div>
+          </div>
+        </li>
+
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+             aria-haspopup="true" aria-expanded="false">look book
+            <i class="fa fa-chevron-down" aria-hidden="true"></i>
+          </a>
+
+          <div class="dropdown-menu dropdown-block" aria-labelledby="navbarDropdown">
+            <div class="dropdown-content d-flex">
+              <div class="d-flex flex-column col-6">
+                <h3>casuals</h3>
+                <a href="#">Jackets</a>
+                <a href="#">Hoodies &amp; Sweatshirts</a>
+                <a href="#">Polo Shirts</a>
+                <a href="#">Sportswear</a>
+                <a href="#">Trousers &amp; Chinos</a>
+                <a href="#">T-Shirts</a>
+              </div>
+              <div class="d-flex flex-column col-6">
+                <h3>Formal</h3>
+                <a href="#">Jackets</a>
+                <a href="#">Shirts</a>
+                <a href="#">Suits</a>
+                <a href="#">Trousers</a>
+              </div>
+            </div>
+
+            <div class="dropdown-menu-banner d-flex justify-content-center align-items-center">
+              <div
+                class="banner-content black-banner d-flex flex-column justify-content-center align-items-center text-center">
+                <h2>Autumn sale!</h2>
+                <h3>up to 50% off</h3>
+              </div>
+            </div>
+          </div>
+        </li>
+      </ul>
+
+      <!--navbar form-->
+      <form class="form-inline navbar-form">
+        <input class="form-control form-search-input mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn submit-form " type="submit">
+          <i class="fa fa-search" aria-hidden="true"></i>
+        </button>
+      </form>
+    </div>
+  </nav>
+
+  <button type="button" class="btn-page  btn-banner">shop men's collection</button>
+</section>
+
+<!--products item-->
+<section class="products">
+  <div class="products-container-wrap">
+    <div class="products-nav controls d-flex align-items-center">
+      <nav id="filter" class="filter-links"></nav>
+    </div>
+    <section id="container">
+      <ul id="stage" class="grid">
+        <li class="grid-item" data-tags="new">
+          <img src="img/bg-item-01.jpg" alt="">
+
+          <div class="link-info text-center"><i class="fas fa-info"></i></div>
+
+          <figcaption class="text-center">
+            <h4>Womens id-1 burnt orange casual tee £<span>29.95 </span></h4>
+            <p>Classic casual t-shirt for women on the move. new arrivals. 100% cotton.</p>
+            <div class="container-social-link d-flex justify-content-center">
+              <div class="social-link-item"><i class="fa fa-shopping-cart" aria-hidden="true"></i></div>
+              <div class="social-link-item"><i class="far fa-heart"></i></div>
+              <div class="social-link-item"><i class="far fa-compress-alt"></i></div>
+            </div>
+          </figcaption>
+        </li>
+        <li class="grid-item" data-tags="new,special offer">
+          <img src="img/bg-item-02.jpg" alt="">
+          <div class="link-info text-center"><i class="fas fa-info"></i></div>
+
+          <figcaption class="text-center">
+            <h4>Womens id-1 burnt orange casual tee £<span>29.95 </span></h4>
+            <p>Classic casual t-shirt for women on the move. new arrivals. 100% cotton.</p>
+            <div class="container-social-link d-flex justify-content-center">
+              <div class="social-link-item"><i class="fa fa-shopping-cart" aria-hidden="true"></i></div>
+              <div class="social-link-item"><i class="far fa-heart"></i></div>
+              <div class="social-link-item"><i class="far fa-compress-alt"></i></div>
+            </div>
+          </figcaption>
+        </li>
+        <li class="grid-item grid-item-big" data-tags="best sellers">
+          <img src="img/bg-item-03.jpg" alt="">
+          <div class="link-info text-center"><i class="fas fa-info"></i></div>
+
+          <figcaption class="text-center">
+            <h4>Womens id-1 burnt orange casual tee £<span>29.95 </span></h4>
+            <p>Classic casual t-shirt for women on the move. new arrivals. 100% cotton.</p>
+            <div class="container-social-link d-flex justify-content-center">
+              <div class="social-link-item"><i class="fa fa-shopping-cart" aria-hidden="true"></i></div>
+              <div class="social-link-item"><i class="far fa-heart"></i></div>
+              <div class="social-link-item"><i class="far fa-compress-alt"></i></div>
+            </div>
+          </figcaption>
+        </li>
+        <li class="grid-item grid-item-big" data-tags="best sellers">
+          <img src="img/bg-item-04.jpg" alt="">
+          <div class="link-info text-center"><i class="fas fa-info"></i></div>
+
+          <figcaption class="text-center">
+            <h4>Womens id-1 burnt orange casual tee £<span>29.95 </span></h4>
+            <p>Classic casual t-shirt for women on the move. new arrivals. 100% cotton.</p>
+            <div class="container-social-link d-flex justify-content-center">
+              <div class="social-link-item"><i class="fa fa-shopping-cart" aria-hidden="true"></i></div>
+              <div class="social-link-item"><i class="far fa-heart"></i></div>
+              <div class="social-link-item"><i class="far fa-compress-alt"></i></div>
+            </div>
+          </figcaption>
+        </li>
+        <li class="grid-item" data-tags="coming soon,special offer">
+          <img src="img/bg-item-05.jpg" alt="">
+          <div class="link-info text-center"><i class="fas fa-info"></i></div>
+
+          <figcaption class="text-center">
+            <h4>Womens id-1 burnt orange casual tee £<span>29.95 </span></h4>
+            <p>Classic casual t-shirt for women on the move. new arrivals. 100% cotton.</p>
+            <div class="container-social-link d-flex justify-content-center">
+              <div class="social-link-item"><i class="fa fa-shopping-cart" aria-hidden="true"></i></div>
+              <div class="social-link-item"><i class="far fa-heart"></i></div>
+              <div class="social-link-item"><i class="far fa-compress-alt"></i></div>
+            </div>
+          </figcaption>
+        </li>
+        <li class="grid-item" data-tags="coming soon">
+          <img src="img/bg-item-06.jpg" alt="">
+
+          <div class="link-info text-center"><i class="fas fa-info"></i></div>
+
+          <figcaption class="text-center">
+            <h4>Womens id-1 burnt orange casual tee £<span>29.95 </span></h4>
+            <p>Classic casual t-shirt for women on the move. new arrivals. 100% cotton.</p>
+            <div class="container-social-link d-flex justify-content-center">
+              <div class="social-link-item"><i class="fa fa-shopping-cart" aria-hidden="true"></i></div>
+              <div class="social-link-item"><i class="far fa-heart"></i></div>
+              <div class="social-link-item"><i class="far fa-compress-alt"></i></div>
+            </div>
+          </figcaption>
+        </li>
+      </ul>
+    </section>
+  </div>
+</section>
+
+
+<!--section advertising-->
+  <div class="container-advertising d-flex justify-content-between align-items-center">
+
+    <div class="advertising-item d-flex justify-content-between">
+     <div class="advertising-item-image">
+      <img src="img/advertising-01.png" alt="">
+    </div>
+
+    <div class="advertising-item-content text-right">
+      <h3>
+        men's <br> <span>lookbook</span>
+      </h3>
+      <p>Lorem ipsum dolor sit amet eras facilisis consectetur adipiscing elit lor, integer lorem consecteur dignissim
+        laciniqui. Elementum metus facilisis ut phasellu.
+      </p>
+      <button type="button" class="btn-page btn-advertising">view now</button>
+    </div>
+  </div>
+
+    <div class="advertising-item d-flex justify-content-between">
+     <div class="advertising-item-image">
+      <img src="img/advertising-02.png" alt="">
+    </div>
+
+    <div class="advertising-item-content text-right">
+      <h3>
+        women's <br> <span>lookbook</span>
+      </h3>
+      <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames .
+        Pellentesque laoreet quis enim et mattis. Quisque interdum felis tellus.
+      </p>
+      <button type="button" class="btn-page btn-advertising">view now</button>
+    </div>
+  </div>
+
+    <div class="advertising-item d-flex justify-content-between">
+     <div class="advertising-item-image">
+      <img src="img/advertising-01.png" alt="">
+    </div>
+
+    <div class="advertising-item-content text-right">
+      <h3>
+        your <br> <span>lookbook</span>
+      </h3>
+      <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames .
+        Pellentesque laoreet quis enim et mattis. Quisque interdum felis tellus.
+      </p>
+      <button type="button" class="btn-page btn-advertising">view now</button>
+    </div>
+  </div>
+  </div>
+
+
+<footer>
+  <div class="footer-links-container">
+    <div class="container-wrap footer-links d-flex flex-column justify-content-center align-items-center">
+
+      <div class="footer-links-columns d-flex justify-content-between flex-wrap">
+        <ul class="footer-links-column">
+          <li><h3>information</h3></li>
+          <li><a href="#">The brand</a></li>
+          <li><a href="#">Local stores</a></li>
+          <li><a href="#">Customer service</a></li>
+          <li><a href="#">Privacy &amp; cookies</a></li>
+          <li><a href="#">Site map</a></li>
+        </ul>
+
+        <ul class="footer-links-column">
+          <li><h3>Why buy from us</h3></li>
+          <li><a href="#">Shipping &amp; returns</a></li>
+          <li><a href="#">Secure shopping</a></li>
+          <li><a href="#">Testimonials</a></li>
+          <li><a href="#">Award winning</a></li>
+          <li><a href="#">Ethical trading</a></li>
+        </ul>
+
+        <ul class="footer-links-column">
+          <li><h3>Your account</h3></li>
+          <li><a href="#">Sign in</a></li>
+          <li><a href="#">Register</a></li>
+          <li><a href="#">View cart</a></li>
+          <li><a href="#">View your lookbook</a></li>
+          <li><a href="#">Track an order</a></li>
+          <li><a href="#">Update information</a></li>
+        </ul>
+
+        <ul class="footer-links-column">
+          <li><h3>Lookbook</h3></li>
+          <li><a href="#">Latest posts</a></li>
+          <li><a href="#">Man's lookbook</a></li>
+          <li><a href="#">Women's lookbook</a></li>
+          <li><a href="#">Lookbooks RSS feed</a></li>
+          <li><a href="#">View your lookbook</a></li>
+          <li><a href="#">Delete your lookbook</a></li>
+        </ul>
+
+        <address class="box-address">
+          <h3>contact details</h3>
+
+          <div class="box-address-container">
+            <p>Head Office: Avenue Fashion,<br> 180-182 Regent Street, London.</p>
+            <p><a href="tel: 0123-456-789">Telephone: 0123-456-789</a></p>
+            <p><a href="mailto:support@yourwebsite.com">Email: support@yourwebsite.com</a></p>
+          </div>
+        </address>
+      </div>
+
+      <!--footer banners-->
+      <div class="footer-links-banners d-flex justify-content-between">
+        <div class="footer-links-banner banner-content black-banner d-flex justify-content-center align-items-center flex-column text-center">
+          <h2>award winner</h2>
+          <h3>fashion awards 2016</h3>
+        </div>
+
+        <div class="footer-links-banner banner-content blue-banner d-flex justify-content-center align-items-center">
+          <div class="links-wrapper">
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-pinterest"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="container-bar">
+    <div class="container-wrap container-bar-content d-flex justify-content-between align-items-center">
+      <p>&copy; 2016 Avenue Fashion<sup class="sub-text">TM</sup></p>
+      <div class="container-authors">
+        <a href="#">Design by RobbyDesigns.com</a>
+        <a href="#">Dev by Loremipsum.com</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+
+<script src="js/libs.min.js"></script>
+<script src="js/filter.js"></script>
+
+<!--if this link don't comit, it'll start work filter product but won't work masonry-->
+<!--<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.min.js"></script>-->
+
+<!--quicksand-->
+<script src="libs/jquery.quicksand.js"></script>
+
+<!--masonry-->
+<script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js"></script>
+<script src="https://npmcdn.com/imagesloaded@4.1/imagesloaded.pkgd.min.js"></script>
+
+<!--bootstrap-->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+
+<script src="js/common.js"></script>
+
+
+</body>
+</html>

@@ -1,0 +1,33 @@
+.banner-content {
+  height: 100%;
+  width: 100%;
+  font-size: $font-size-banner;
+  line-height: $line-height-banner;
+  text-transform: uppercase;
+  color: $textBanner;
+  letter-spacing: 0.1em;
+  h2 {
+    font-weight: 700;
+  }
+  h3 {
+    font-weight: 400;
+  }
+  a {
+    padding: 1.5625rem;
+    color: $textColor;
+    &:hover i {
+      transform: scale(1.2);
+    }
+    i {
+      transition: all 0.3s ease-in-out;
+    }
+  }
+}
+
+.black-banner {
+  background-color: $bannerBG;
+}
+
+.blue-banner {
+  background-color: $bannerBGColor;
+}

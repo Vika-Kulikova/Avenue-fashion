@@ -1,0 +1,41 @@
+.container-advertising {
+  background: $textColor;
+  min-height: 715px;
+  @media (max-width: 1200px) {
+    flex-direction: column;
+  }
+  .advertising-item {
+    height: 530px;
+    width: 32vw;
+    background-color: $advertisingBG;
+    padding: 30px 50px 0 30px;
+    @media (max-width: 1200px) {
+      width: 100%;
+      margin-top: 30px;
+      &:last-child {
+        margin-bottom: 30px;
+      }
+    }
+    &-image {
+      max-width: 30%;
+    }
+    &-content {
+      width: 300px;
+      padding-top: 50px;
+      h3 {
+        font-weight: 700;
+        font-size: $font-size-advertising;
+        line-height: $line-height-advertising;
+        text-transform: uppercase;
+        color: $textFooterColor;
+        span {
+          font-weight: 300;
+        }
+      }
+      p {
+        font-size: 0.9375rem;
+        color: $textFooterLinksColor;
+      }
+    }
+  }
+}

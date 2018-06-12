@@ -1,0 +1,39 @@
+.container-bar {
+  background: $topBottomBarBG;
+  color: $topBottomBarTextColor;
+  font-size: $topBottomBar-font-size-text;
+  font-weight: 700;
+  a {
+    color: $topBottomBarTextColor;
+  }
+  .container-bar-content {
+    min-height: 45px;
+    @media (max-width: 500px) {
+      flex-direction: column;
+    }
+  }
+  .sub-text {
+    font-size: 60%;
+  }
+}
+
+.container-authors {
+  a {
+    margin-left: 1.875rem;
+  }
+  a:hover {
+    text-decoration: none;
+
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
